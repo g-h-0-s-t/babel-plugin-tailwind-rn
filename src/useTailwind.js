@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Dimensions } from 'react-native'
-import styles from './styles.json'
 import screens from './screens.json'
+import styles from './styles.json'
 
 function debounce(func, wait) {
   let timeout
@@ -81,10 +81,9 @@ const TailwindProvider = (WrappedComponent) => (props) => {
     return () => unbindResize(debounced)
   })
 
-  return <WrappedComponent {...props} windowWidth={ width } />
+  return <WrappedComponent {...props} windowWidth={width} />
 }
 
-export default TailwindProvider;
+export default TailwindProvider
 
 global.useTailwind = getStyles
-
