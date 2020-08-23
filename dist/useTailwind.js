@@ -11,9 +11,9 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _reactNative = require("react-native");
 
-var _styles = _interopRequireDefault(require("./styles.json"));
-
 var _screens = _interopRequireDefault(require("./screens.json"));
+
+var _styles = _interopRequireDefault(require("./styles.json"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 

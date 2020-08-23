@@ -79,7 +79,7 @@ var supportedUtilities = [// Flexbox
 /^(p.?-\d+|p.?-px)/, // Margin
 /^-?(m.?-\d+|m.?-px)/, // Width
 /^w-(\d|\/)+|^w-px|^w-full/, // Height
-/^(h-\d+|h-px|h-full)/, // Min/Max width/height
+/^(h-\d+|h-px|h-full|h-screen)/, // Min/Max width/height
 /^(min-w-|max-w-|min-h-0|min-h-full|max-h-full)/, // Font size
 /^text-/, // Font style
 /^(not-)?italic$/, // Font weight
